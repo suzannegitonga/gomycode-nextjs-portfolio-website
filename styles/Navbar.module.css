@@ -1,0 +1,22 @@
+/* styles/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  color: white;
+}
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navLinks a:hover {
+  color: #0070f3;
+}
